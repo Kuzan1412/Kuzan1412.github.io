@@ -1,0 +1,174 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+#Home
+{
+	width: 100%;
+	border: 1px solid black;
+	
+}
+#Logo
+{
+	font-family: "Arial Black";
+	background-color: #4dc3ff;
+	height: 120px;
+
+}
+.content_logo
+{
+	padding-top: 25px;
+	margin-left: 200px;
+	text-decoration: underline;
+}
+#Menubar ul
+{
+	list-style-type: none;
+	margin: 0px;
+	background-color: #ccffff;
+	padding: 0px;
+}
+#Menubar li
+{
+	display: inline-block;
+	width: 150px;
+ 	height: 40px;
+  	line-height: 40px;
+  	position: relative;
+  	border: 1px solid black;
+  
+  	text-align: center;
+}
+#Menubar .father > a
+{
+	text-decoration: none;
+	color:Black;
+	display: block;
+	font-weight: bold;
+	padding: 0px;
+}
+#Menubar a:hover
+{
+	background-color: #d9d9d9;
+	color: #1a1a1a;
+}
+.dropdown 
+{
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.dropdown  li a
+{
+	border-bottom: 1px solid black;
+}
+.father:hover .dropdown
+{
+	display: block;
+}
+.father .dropdown a
+{
+	display: block;
+}
+#Content
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	height: 460px;
+	background-color: #6600ff;
+}
+#left
+{
+	float: left; 
+	width: 15%;
+	height: 460px;
+	background-image: url(..//WebGit/Image/doi1.jpg);
+}
+#right
+{
+	float: right;
+	width: 15%;
+	height: 460px;
+	background-image: url(..//WebGit/Image/doi1.jpg);
+	margin-top: 0px;
+}
+#slideshow
+{
+	float: left;
+	width: 60%;
+	height: 460px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	animation-name: example;
+	animation-duration: 10s;
+  	animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-image:url(..//WebGit/Image/Dev.jfif); height: 280px; width:500px;}
+  25%  {background-image:url(..//WebGit/Image/english.jpg); height:280px;width: 500px;}
+  50%  {background-image:url(..//WebGit/Image/login.jpg); height:280px; width: 500px;}
+  75%  {background-image:url(..//WebGit/Image/luffy.jpg); height:280px; width: 500px;}
+  100% {background-image:url(..//WebGit/Image/speechnaruto.jpg); height:280px; width: 500px;}
+}
+.doi
+{
+	position: absolute;
+	left: 400px;
+	top: 480px;
+	font-size: 40px;
+	font-family: Broadway;
+}
+
+#News, #Lesson
+{
+	float: left;
+	width: 100%;
+}
+
+.box
+{
+	float: left;
+	width: 23%;
+	border-right: 1px solid blue;
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+}
+.Feedback
+{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 20px;
+	clear: both;
+	
+}
+.Support
+{
+	background-color: #b3ffd9;
+	border: 1px solid black;
+	text-align: center;
+	height: 230px;
+}
+.name
+{
+	color: red;
+	background-color:#1ad1ff ;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 10px;
+	text-align: center;
+}
+#leftform
+{
+	margin-left: 50px;
+	padding: 20px;
+}
+input
+{
+	float: right;
+}
