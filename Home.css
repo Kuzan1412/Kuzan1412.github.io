@@ -84,14 +84,14 @@ body
 	float: left; 
 	width: 15%;
 	height: 460px;
-	background-image: url(..//Kuzan1412.github.io/blob/master/Image/doi1.jpg);
+	background-image: url(..//Kuzan1412.github.io/Image/doi1.jpg);
 }
 #right
 {
 	float: right;
 	width: 15%;
 	height: 460px;
-	background-image: url(..//Kuzan1412.github.io/blob/master/Image/doi1.jpg);
+	background-image: url(..//Kuzan1412.github.io/Image/doi1.jpg);
 	margin-top: 0px;
 }
 #slideshow
@@ -107,11 +107,11 @@ body
   	animation-iteration-count: infinite;
 }
 @keyframes example {
-  0%   {background-image:url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/Dev.jfif); height: 280px; width:500px;}
-  25%  {background-image:url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/english.jpg); height:280px;width: 500px;}
-  50%  {background-image:url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/login.jpg); height:280px; width: 500px;}
-  75%  {background-image:url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/luffy.jpg); height:280px; width: 500px;}
-  100% {background-image:url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/speechnaruto.jpg); height:280px; width: 500px;}
+  0%   {background-image:url(..//Kuzan1412.github.io/Image/Dev.jfif); height: 280px; width:500px;}
+  25%  {background-image:url(..//Kuzan1412.github.io/Image/english.jpg); height:280px;width: 500px;}
+  50%  {background-image:url(..//Kuzan1412.github.io/Image/login.jpg); height:280px; width: 500px;}
+  75%  {background-image:url(..//Kuzan1412.github.io/Image/luffy.jpg); height:280px; width: 500px;}
+  100% {background-image:url(..//Kuzan1412.github.io/Image/speechnaruto.jpg); height:280px; width: 500px;}
 }
 .doi
 {
