@@ -84,14 +84,14 @@ body
 	float: left; 
 	width: 15%;
 	height: 460px;
-	background-image: url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/doi1.jpg);
+	background-image: url(..//Kuzan1412.github.io/blob/master/Image/doi1.jpg);
 }
 #right
 {
 	float: right;
 	width: 15%;
 	height: 460px;
-	background-image: url(https://github.com/Kuzan1412/Kuzan1412.github.io/blob/master/Image/doi1.jpg);
+	background-image: url(..//Kuzan1412.github.io/blob/master/Image/doi1.jpg);
 	margin-top: 0px;
 }
 #slideshow
