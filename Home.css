@@ -1,3 +1,10 @@
+@media screen and (max-width: 800px)
+{
+	#Content
+	{
+		width: 100%;
+	}
+}
 body
 {
 	margin: 0px;
