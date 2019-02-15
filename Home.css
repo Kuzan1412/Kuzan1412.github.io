@@ -1,4 +1,8 @@
-
+img
+{
+	height: auto;
+	max-width: 100%;
+}
 body
 {
 	margin: 0px;
@@ -84,7 +88,8 @@ body
 	padding: 0px;
 	margin: 0px;
 	height: 460px;
-	background-color: #6600ff;
+	background-image: url(..//Kuzan1412.github.io/Image/vltday.jpg);
+	
 }
 #left
 {
